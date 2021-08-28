@@ -13,6 +13,7 @@
 		0AD1A59626DA532E00F44C9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD1A59426DA532E00F44C9E /* Main.storyboard */; };
 		0AD1A59826DA534000F44C9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD1A59726DA534000F44C9E /* Assets.xcassets */; };
 		0AD1A59B26DA534000F44C9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD1A59926DA534000F44C9E /* LaunchScreen.storyboard */; };
+		0AD1A5A526DA7C4D00F44C9E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A5A426DA7C4D00F44C9E /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0AD1A59726DA534000F44C9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AD1A59A26DA534000F44C9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AD1A59C26DA534000F44C9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD1A5A426DA7C4D00F44C9E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0AD1A59026DA532E00F44C9E /* SceneDelegate.swift */,
 				0AD1A59226DA532E00F44C9E /* ViewController.swift */,
 				0AD1A59426DA532E00F44C9E /* Main.storyboard */,
+				0AD1A5A426DA7C4D00F44C9E /* WelcomeViewController.swift */,
 				0AD1A59726DA534000F44C9E /* Assets.xcassets */,
 				0AD1A59926DA534000F44C9E /* LaunchScreen.storyboard */,
 				0AD1A59C26DA534000F44C9E /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AD1A59326DA532E00F44C9E /* ViewController.swift in Sources */,
+				0AD1A5A526DA7C4D00F44C9E /* WelcomeViewController.swift in Sources */,
 				0AD1A58F26DA532E00F44C9E /* AppDelegate.swift in Sources */,
 				0AD1A59126DA532E00F44C9E /* SceneDelegate.swift in Sources */,
 			);
@@ -293,10 +297,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.reygan.Login-App";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.reygan.LoginApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,10 +316,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.reygan.Login-App";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.reygan.LoginApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
