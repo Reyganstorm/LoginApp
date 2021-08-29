@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A39C74E26DBDB1F00A0F216 /* Persone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39C74D26DBDB1F00A0F216 /* Persone.swift */; };
+		0A39C75126DBE6A500A0F216 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A39C75026DBE6A500A0F216 /* PageViewController.swift */; };
 		0AD1A58F26DA532E00F44C9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A58E26DA532E00F44C9E /* AppDelegate.swift */; };
 		0AD1A59126DA532E00F44C9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A59026DA532E00F44C9E /* SceneDelegate.swift */; };
 		0AD1A59326DA532E00F44C9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD1A59226DA532E00F44C9E /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A39C74D26DBDB1F00A0F216 /* Persone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persone.swift; sourceTree = "<group>"; };
+		0A39C75026DBE6A500A0F216 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		0AD1A58B26DA532E00F44C9E /* Login App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD1A58E26DA532E00F44C9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AD1A59026DA532E00F44C9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +48,7 @@
 			children = (
 				0AD1A59226DA532E00F44C9E /* ViewController.swift */,
 				0AD1A5A426DA7C4D00F44C9E /* WelcomeViewController.swift */,
+				0A39C75026DBE6A500A0F216 /* PageViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -75,6 +80,14 @@
 			path = Supporting;
 			sourceTree = "<group>";
 		};
+		0A39C74C26DBD9E900A0F216 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A39C74D26DBDB1F00A0F216 /* Persone.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		0AD1A58226DA532E00F44C9E = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +107,11 @@
 		0AD1A58D26DA532E00F44C9E /* Login App */ = {
 			isa = PBXGroup;
 			children = (
-				0A39C74526DBD7E800A0F216 /* Supporting */,
 				0A39C74126DBD72000A0F216 /* ViewControllers */,
-				0A39C74426DBD7AA00A0F216 /* Resources */,
+				0A39C74C26DBD9E900A0F216 /* Models */,
 				0A39C74326DBD76C00A0F216 /* Storyboards */,
+				0A39C74526DBD7E800A0F216 /* Supporting */,
+				0A39C74426DBD7AA00A0F216 /* Resources */,
 			);
 			path = "Login App";
 			sourceTree = "<group>";
@@ -175,6 +189,8 @@
 				0AD1A59326DA532E00F44C9E /* ViewController.swift in Sources */,
 				0AD1A5A526DA7C4D00F44C9E /* WelcomeViewController.swift in Sources */,
 				0AD1A58F26DA532E00F44C9E /* AppDelegate.swift in Sources */,
+				0A39C75126DBE6A500A0F216 /* PageViewController.swift in Sources */,
+				0A39C74E26DBDB1F00A0F216 /* Persone.swift in Sources */,
 				0AD1A59126DA532E00F44C9E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
