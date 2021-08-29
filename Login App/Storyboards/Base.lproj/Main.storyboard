@@ -134,7 +134,7 @@
             </objects>
             <point key="canvasLocation" x="1856.8" y="92.203898050974516"/>
         </scene>
-        <!--Page View Controller-->
+        <!--About Me:-->
         <scene sceneID="Tue-54-8Gk">
             <objects>
                 <viewController id="9om-YD-ojg" customClass="PageViewController" customModule="Login_App" customModuleProvider="target" sceneMemberID="viewController">
@@ -298,7 +298,7 @@
                             <constraint firstItem="IdS-72-AZI" firstAttribute="trailing" secondItem="QSO-9G-eJ7" secondAttribute="trailing" constant="100" id="VKZ-SV-DNG"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="PEV-K8-bNq"/>
+                    <navigationItem key="navigationItem" title="About Me:" id="PEV-K8-bNq"/>
                     <connections>
                         <outlet property="ageLabel" destination="tbL-gO-tEg" id="B2S-bS-ZH8"/>
                         <outlet property="codeExperienceLabel" destination="N3h-0K-Vdb" id="xY1-Dc-cbi"/>
