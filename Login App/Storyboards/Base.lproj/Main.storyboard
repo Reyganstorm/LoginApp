@@ -279,13 +279,23 @@
                                     <constraint firstAttribute="trailing" secondItem="ErL-Rf-LtC" secondAttribute="trailing" id="dAt-wM-TaI"/>
                                 </constraints>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QSO-9G-eJ7">
+                                <rect key="frame" x="100" y="518" width="175" height="30"/>
+                                <state key="normal" title="Show Face"/>
+                                <connections>
+                                    <segue destination="VXc-gZ-wmW" kind="show" id="6d1-nK-7VT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IdS-72-AZI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="QSO-9G-eJ7" firstAttribute="leading" secondItem="IdS-72-AZI" secondAttribute="leading" constant="100" id="9Es-FI-xYt"/>
                             <constraint firstItem="Wns-nE-uds" firstAttribute="leading" secondItem="IdS-72-AZI" secondAttribute="leading" constant="20" id="B1t-0n-Yzy"/>
+                            <constraint firstItem="IdS-72-AZI" firstAttribute="bottom" secondItem="QSO-9G-eJ7" secondAttribute="bottom" constant="70" id="Ow2-pC-0zv"/>
                             <constraint firstItem="IdS-72-AZI" firstAttribute="trailing" secondItem="Wns-nE-uds" secondAttribute="trailing" constant="20" id="Oxj-un-e8K"/>
                             <constraint firstItem="Wns-nE-uds" firstAttribute="centerY" secondItem="xe3-lC-TpV" secondAttribute="centerY" constant="-50" id="PAK-cK-9nt"/>
+                            <constraint firstItem="IdS-72-AZI" firstAttribute="trailing" secondItem="QSO-9G-eJ7" secondAttribute="trailing" constant="100" id="VKZ-SV-DNG"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PEV-K8-bNq"/>
@@ -301,6 +311,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9JT-tJ-6ji" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3720.8000000000002" y="91.304347826086968"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="66i-sA-Ayf">
+            <objects>
+                <viewController id="VXc-gZ-wmW" customClass="ImageViewController" customModule="Login_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C68-yy-0fA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="9sl-yI-HJ4">
+                                <rect key="frame" x="60" y="144" width="255" height="374"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KhK-wY-wyJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KhK-wY-wyJ" firstAttribute="bottom" secondItem="9sl-yI-HJ4" secondAttribute="bottom" constant="100" id="Qjl-Gs-DTf"/>
+                            <constraint firstItem="KhK-wY-wyJ" firstAttribute="trailing" secondItem="9sl-yI-HJ4" secondAttribute="trailing" constant="60" id="UC0-VP-KN2"/>
+                            <constraint firstItem="9sl-yI-HJ4" firstAttribute="leading" secondItem="KhK-wY-wyJ" secondAttribute="leading" constant="60" id="sex-yN-KDR"/>
+                            <constraint firstItem="9sl-yI-HJ4" firstAttribute="top" secondItem="KhK-wY-wyJ" secondAttribute="top" constant="100" id="uvx-uh-TRJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="WpU-bq-pFM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sJo-a8-kVI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4509" y="108"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Wnl-Zz-m95">
@@ -343,6 +380,7 @@
     </scenes>
     <resources>
         <image name="house" catalog="system" width="128" height="106"/>
+        <image name="myPhoto" width="2334" height="3109"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <systemColor name="linkColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
